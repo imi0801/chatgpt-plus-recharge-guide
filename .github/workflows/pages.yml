@@ -15,11 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,5 +32,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: .
+
+  # 单独一个任务部署：上传和部署放在同一个任务里时，部署步骤偶尔查不到刚上传的产物。
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5
