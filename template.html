@@ -74,6 +74,7 @@ body.no-sticky{padding-bottom:24px}body.no-sticky .sticky{display:none}
 @media (max-width:520px){.sticky-text{font-size:.84em}.sticky .cta{padding:9px 12px;font-size:.9em}}
 .site-foot{margin-top:48px;padding-top:16px;border-top:1px solid var(--border);font-size:.88em;color:var(--muted)}
 </style>
+<script defer src="https://abc.okai66.com/script.js" data-website-id="{{UMAMI_ID}}" data-domains="{{HOST}}"></script>
 </head>
 <body>
 <main>
@@ -95,5 +96,6 @@ body.no-sticky{padding-bottom:24px}body.no-sticky .sticky{display:none}
   </div>
 </div>
 <script>try{if(sessionStorage.getItem('hideCta')==='1')document.body.classList.add('no-sticky')}catch(e){}</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="https://okai66.com"]');if(a&&window.umami){try{umami.track('okai66_click',{to:new URL(a.href).pathname,from:location.pathname})}catch(_){}}});</script>
 </body>
 </html>

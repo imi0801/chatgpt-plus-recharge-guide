@@ -8,6 +8,7 @@ Run `python3 build.py` after editing any .md, then commit. The Actions
 workflow runs it on every push, so committing the HTML is optional.
 Requires: pip install markdown
 """
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import glob
 import html
 import json
@@ -21,6 +22,9 @@ from markdown.extensions.toc import TocExtension
 
 SITE_URL = "https://imi0801.github.io/chatgpt-plus-recharge-guide/"
 REPO_URL = "https://github.com/imi0801/chatgpt-plus-recharge-guide"
+# 访问统计（自建 Umami）与导流来源名：每个站用自己的 utm_source，OKAI66 那边才能按站区分。
+UMAMI_ID = "0e83a794-19dc-41da-a562-d7f9cabfa6ac"
+UTM_SOURCE = "imi0801-recharge-guide"
 SITE_NAME = "ChatGPT 充值避坑指南"
 AUTHOR = "imi0801"
 OG_IMAGE = SITE_URL + "images/chatgpt/1-1-plans.webp"
@@ -130,6 +134,21 @@ def render_markdown(body_md: str, depth: int) -> str:
 
 # ---------- build ----------
 
+def tag_outbound(page: str, slug: str) -> str:
+    """Stamp every okai66.com link with this site's utm_source / utm_medium.
+
+    An existing utm_campaign is kept; links without one get the page slug.
+    README.md itself is untouched, so links on github.com keep their own tags.
+    """
+    def fix(m):
+        parts = urlsplit(html.unescape(m.group(1)))
+        q = dict(parse_qsl(parts.query))
+        q["utm_source"], q["utm_medium"] = UTM_SOURCE, "pages"
+        q.setdefault("utm_campaign", slug or "home")
+        return 'href="' + html.escape(urlunsplit(parts._replace(query=urlencode(q)))) + '"'
+    return re.sub(r'href="(https://okai66\.com[^"]*)"', fix, page)
+
+
 def build_page(meta, body_md, all_pages, tpl):
     depth = 1 if meta["slug"] else 0
     url = SITE_URL + (meta["slug"] + "/" if meta["slug"] else "")
@@ -172,9 +191,10 @@ def build_page(meta, body_md, all_pages, tpl):
         "REPO_URL": REPO_URL, "OG_IMAGE": OG_IMAGE,
         "MODIFIED": modified, "NAV": nav, "CTA": html.escape(meta["cta"]), "CTA_URL": meta["cta_url"],
         "JSONLD": json.dumps(ld, ensure_ascii=False, indent=1), "CONTENT": content,
-        "ROOT": rel_root,
+        "ROOT": rel_root, "UMAMI_ID": UMAMI_ID, "HOST": urlsplit(SITE_URL).netloc,
     }.items():
         page = page.replace("{{" + k + "}}", v)
+    page = tag_outbound(page, meta["slug"])
 
     out_dir = meta["slug"] or "."
     os.makedirs(out_dir, exist_ok=True)
