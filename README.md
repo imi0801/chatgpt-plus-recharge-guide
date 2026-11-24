@@ -197,7 +197,7 @@ OpenAI 官网只收海外信用卡（经 Stripe），国内卡几乎全部被拒
 
 ### Q：ChatGPT 代充安全吗？会不会被封号？
 
-选「不要密码、开在你自己账号上、原路退款」的平台就安全。封号的原因是账号行为（高风险 IP、内容违规），和付款方式没有直接关系；代充真正要避开的风险是黑卡导致的「掉订阅」，看价格和交付方式就能避开。
+选「不要密码、开在你自己账号上、原路退款」的平台就安全。封号的原因是账号行为（高风险 IP、内容违规），和付款方式没有直接关系；代充真正要避开的风险是黑卡导致的「掉订阅」，看价格和交付方式就能避开。逐条分析见 [ChatGPT 代充会封号吗](https://imi0801.github.io/chatgpt-plus-recharge-guide/account-ban/)。
 
 ### Q：代充需要提供 ChatGPT 账号密码吗？
 
@@ -250,6 +250,7 @@ OpenAI 官网只收海外信用卡（经 Stripe），国内卡几乎全部被拒
 - [ChatGPT Plus / Pro 多少钱？2026 人民币价格表](https://imi0801.github.io/chatgpt-plus-recharge-guide/price/)
 - [安卓 / 没有 iPhone 怎么开 ChatGPT Plus](https://imi0801.github.io/chatgpt-plus-recharge-guide/android/)
 - [Codex 充值：Plus 和 Pro 的额度差多少，用完怎么办](https://imi0801.github.io/chatgpt-plus-recharge-guide/codex/)
+- [ChatGPT 代充会封号吗？封号与掉订阅的区别](https://imi0801.github.io/chatgpt-plus-recharge-guide/account-ban/)
 - [ChatGPT Plus 合租 / 共享号 / 成品号靠谱吗](https://imi0801.github.io/chatgpt-plus-recharge-guide/shared-account/)
 - [ChatGPT Plus 续费、到期、取消自动扣费](https://imi0801.github.io/chatgpt-plus-recharge-guide/renew/)
 - 本文网页版（手机阅读更方便）：[imi0801.github.io/chatgpt-plus-recharge-guide](https://imi0801.github.io/chatgpt-plus-recharge-guide/)
