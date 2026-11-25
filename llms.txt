@@ -5,12 +5,12 @@
 ## 页面
 
 - [ChatGPT 代充靠谱吗？2026 国内充值 ChatGPT Plus / Pro 避坑指南：价格、安全、流程、售后](https://imi0801.github.io/chatgpt-plus-recharge-guide/): ChatGPT 代充到底靠不靠谱？2026 年国内充值 ChatGPT Plus / Pro 的完整避坑指南：三类代充的区别、人民币价格速查、7 个判断信号、支付宝 / 微信 4 步自助开通实测、会话信息的安全边界、掉订阅与退款处理。不要密码、不换号、安卓 iPhone 都能用。
-- [ChatGPT Plus / Pro 多少钱？2026 人民币价格表：官方美元价、代充价、礼品卡价逐项对比](https://imi0801.github.io/chatgpt-plus-recharge-guide/price/): ChatGPT Plus 多少钱一个月？2026 年 ChatGPT 全部套餐（Go / Plus / Pro 100 / Pro 200 / Pro 500）官方美元价与人民币折算，官网直付、美区礼品卡、虚拟卡、支付宝微信代充四种渠道的实付价逐项对比，以及为什么低于 ¥140 的 Plus 不能买。
-- [ChatGPT 代充会封号吗？2026 封号、掉订阅的区别与 6 项充值前自查](https://imi0801.github.io/chatgpt-plus-recharge-guide/account-ban/): ChatGPT 代充会不会封号？2026 年把封号、掉订阅、临时限制三件事分开讲清楚：OpenAI 因为什么停用账号、哪四种代充做法会增加风险（要密码代登录、低价黑卡、成品号、替你改资料）、充值前 6 项自查、充值后怎么用更稳，以及真被封了订阅和退款怎么处理。
-- [安卓手机 / 没有 iPhone 怎么开通 ChatGPT Plus？2026 国内安卓用户充值指南](https://imi0801.github.io/chatgpt-plus-recharge-guide/android/): 安卓手机、没有 iPhone 怎么开通 ChatGPT Plus？2026 年国内安卓用户的三条路：Google Play 礼品卡为什么走不通、借 iPhone 的坑、以及不限设备的支付宝微信代充流程。订阅绑定账号不绑设备，网页开通后安卓 App 直接生效。
-- [Codex 充值 / 代充 2026：Plus 和 Pro 的 Codex 额度差多少、用完怎么办、国内怎么付](https://imi0801.github.io/chatgpt-plus-recharge-guide/codex/): OpenAI Codex 国内怎么充值？Codex 包含在哪些 ChatGPT 套餐里、Plus / Pro 100 / Pro 200 / Pro 500 的 Codex 额度差多少、5 小时窗口和周额度怎么算、额度用完的三条路（等重置、升档、买额度包），以及支付宝微信开通 Plus / Pro 和充 Codex 额度的方法。
-- [ChatGPT Plus 合租 / 共享号 / 成品号靠谱吗？2026 避坑分析，和本号代充的区别](https://imi0801.github.io/chatgpt-plus-recharge-guide/shared-account/): 淘宝闲鱼几十块的 ChatGPT Plus 合租、共享号、独享成品号到底靠不靠谱？2026 年逐条分析它们为什么便宜、六大风险（对话外泄、被改密码、多人登录风控、掉订阅、批量注册封号、无售后）、什么情况下勉强能用，以及和开在自己账号上的代充怎么选。
-- [ChatGPT Plus 续费、到期、取消自动扣费：2026 国内代充续费规则与官网订阅的区别](https://imi0801.github.io/chatgpt-plus-recharge-guide/renew/): ChatGPT Plus 怎么续费？到期会自动扣款吗？怎么取消自动续费？2026 年官网订阅与国内代充的续费规则逐项对比：官网自动扣卡怎么取消、代充到期自动变 Free 不扣款、什么时候续最划算、续早了会不会叠加、Plus 升 Pro 的时机、掉订阅和到期怎么区分。
+- [ChatGPT Plus / Pro 多少钱？2026 人民币价格表：官方美元价、代充价、礼品卡价逐项对比](https://imi0801.github.io/chatgpt-plus-recharge-guide/price/): ChatGPT Plus 多少钱？官方标价每月 $20（折合人民币约 ¥136），国内走美区礼品卡实付约 ¥135–140、支付宝或微信本号代充约 ¥165。本页汇总全部套餐官方美元价与四种国内开通渠道实付费用对比，拆解代充差价构成，并说明低于 ¥140 的低价渠道为什么不能买。
+- [ChatGPT 代充会封号吗？2026 封号、掉订阅的区别与 6 项充值前自查](https://imi0801.github.io/chatgpt-plus-recharge-guide/account-ban/): ChatGPT 代充会封号吗？把会员开在自己账号上、不交密码且付款来源正规的代充本身不是封号原因。本页区分封号、掉订阅与临时限制，拆解要密码、低价黑卡、成品号、改资料四种高风险做法，并附充值前 6 项自查与被封后的申诉退款处理。
+- [安卓手机 / 没有 iPhone 怎么开通 ChatGPT Plus？2026 国内安卓用户充值指南](https://imi0801.github.io/chatgpt-plus-recharge-guide/android/): 安卓 ChatGPT Plus 怎么开通？订阅绑定的是 OpenAI 账号而非手机设备，没有苹果手机也能正常使用。本页逐项对比美区应用商店礼品卡、借苹果设备内购与浏览器网页端支付宝微信代充三种方案，说明小米、华为等国产安卓手机开通与同步生效的完整步骤。
+- [Codex 充值 / 代充 2026：Plus 和 Pro 的 Codex 额度差多少、用完怎么办、国内怎么付](https://imi0801.github.io/chatgpt-plus-recharge-guide/codex/): Codex 充值无需单独购买软件，开通个人付费订阅即可直接使用全部编程代理功能。本页对比不同套餐档位的额度倍数、滚动窗口与每周上限规则，说明额度耗尽后等待重置、升级档位或单独购买用量包三种处理办法，并附国内支付宝与微信代充开通流程。
+- [ChatGPT Plus 合租 / 共享号 / 成品号靠谱吗？2026 避坑分析，和本号代充的区别](https://imi0801.github.io/chatgpt-plus-recharge-guide/shared-account/): ChatGPT Plus 合租、共享号与独享成品号不靠谱：账号归卖家所有，存在对话外泄、随时被改密码、多人异地登录触发风控、黑卡掉订阅、批量号被封与无售后六大风险。本页拆解低价原因，并与开在自己账号上的本号代充逐项对比。
+- [ChatGPT Plus 续费、到期、取消自动扣费：2026 国内代充续费规则与官网订阅的区别](https://imi0801.github.io/chatgpt-plus-recharge-guide/renew/): ChatGPT Plus 续费规则按开通渠道区分：官网与 App 订阅到期自动扣款，需回原渠道取消；支付宝微信代充到期自动变回 Free 不扣款，建议到期前 1–2 天再续，避免提前充值覆盖剩余天数。本页附取消自动续费步骤与掉订阅区分方法。
 
 ## 来源
 

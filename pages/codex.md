@@ -2,7 +2,7 @@
 slug: codex
 title: Codex 充值 / 代充 2026：Plus 和 Pro 额度差多少，用完怎么办，国内怎么付
 nav: Codex 额度与充值
-description: OpenAI Codex 国内怎么充值？Codex 包含在哪些 ChatGPT 套餐里、Plus / Pro 100 / Pro 200 / Pro 500 的 Codex 额度差多少、5 小时窗口和周额度怎么算、额度用完的三条路（等重置、升档、买额度包），以及支付宝微信开通 Plus / Pro 和充 Codex 额度的方法。
+description: Codex 充值无需单独购买软件，开通个人付费订阅即可直接使用全部编程代理功能。本页对比不同套餐档位的额度倍数、滚动窗口与每周上限规则，说明额度耗尽后等待重置、升级档位或单独购买用量包三种处理办法，并附国内支付宝与微信代充开通流程。
 keywords: Codex 充值, Codex 代充, Codex 额度, Codex 额度 用完, Codex 国内, OpenAI Codex 怎么买, Codex Plus Pro 区别, Codex 额度包, Codex 支付宝, Codex 订阅
 cta: 支付宝 / 微信开通含 Codex 的 Plus / Pro，或单独充 Codex 额度
 cta_url: https://okai66.com/codex
@@ -10,13 +10,13 @@ cta_url: https://okai66.com/codex
 
 # Codex 充值 / 代充 2026：Plus 和 Pro 的 Codex 额度差多少、用完怎么办、国内怎么付
 
-> 最后更新：2026 年 10 月 20 日 · 本页讲 Codex 相关的套餐、额度和付款。代充安不安全见 [总览页](../)，各套餐价格见 [价格表](../price/)。
+> 最后更新：2026 年 11 月 25 日 · 本页讲 Codex 相关的套餐、额度和付款。代充安不安全见 [总览页](../)，各套餐价格见 [价格表](../price/)。
 
-Codex 是 OpenAI 的 AI 编程代理，能在终端、编辑器、桌面 App 和云端跑任务：写功能、修 Bug、跑测试、审代码。2026 年它已经是很多开发者升 Plus / Pro 的主要原因，但围绕它的问题也最多：**要不要 Plus 才能用？Plus 和 Pro 的额度差多少？用完了怎么办？国内怎么付钱？** 这页一次讲清。
+Codex 充值不用单买，**2026 年开通 Plus 或 Pro 即自动包含 Codex**，可在终端、编辑器、桌面端和云端写代码、修 Bug、跑测试，不够还能加购额度包。
 
 **👉 [Codex 额度充值 / Plus / Pro 开通：okai66.com/codex](https://okai66.com/codex)**
 
-## Codex 包含在哪些套餐里
+## OpenAI Codex 怎么买？各套餐包含的额度档位
 
 | 套餐 | 能不能用 Codex | 额度档位（相对 Plus） |
 |---|---|---|
@@ -26,7 +26,7 @@ Codex 是 OpenAI 的 AI 编程代理，能在终端、编辑器、桌面 App 和
 | **Pro 200**（$200，原 20×） | ✅ | 新订阅约 10×，老用户保留 20× |
 | Pro 500（$500） | ✅ | 约 25×，另有高速档 |
 
-Codex 不是单独卖的产品，**开通 Plus 或 Pro 就自动包含**。所谓「Codex 代充」，本质是代充 Plus / Pro。
+Codex 不是单独卖的产品，**开通 Plus 或 Pro 就自动包含**；整体套餐评估见 [ChatGPT Plus 和 Pro 区别](https://imi0801.github.io/chatgpt-plus-guide/plus-vs-pro/)。所谓「Codex 代充」，本质是代充 Plus / Pro。
 
 ## Codex 额度怎么算
 
@@ -36,13 +36,13 @@ Codex 不是单独卖的产品，**开通 Plus 或 Pro 就自动包含**。所�
 
 一个简单的判断：**一个月里 Plus 的额度提示出现 3 次以上，每次都要等几小时**，升 Pro 100 是值的；从没撞过墙，Plus 继续用。
 
-## 额度用完了的三条路
+## Codex 额度用完了怎么办：等重置、升档与买 Codex 额度包
 
 1. **等重置。** 短窗口几小时恢复，周额度到周期重置。适合偶尔撞墙的人。
-2. **升档。** Plus → Pro 100 → Pro 200。注意 **Plus 升 Pro 是覆盖，不叠加**，Plus 剩余天数不退不接，最划算的做法是 Plus 快到期那两天升。
+2. **升档。** Plus → Pro 100 → Pro 200。注意 **Plus 升 Pro 是覆盖，不叠加**，Plus 剩余天数不退不接，最划算的做法是 Plus 快到期那两天升，覆盖规则见 [ChatGPT Plus 续费](../renew/)。
 3. **买 Codex 额度包。** OpenAI 支持在订阅之外额外购买 Codex 用量（credits），适合「这周赶项目临时不够」但不想长期升档的人。国内付款同样走代充：[Codex 额度充值](https://okai66.com/purchase-credits)。
 
-## 国内怎么付
+## 国内怎么用支付宝微信做 Codex 代充
 
 和开 Plus 一样，OpenAI 不收国内卡，所以国内用 Codex 的付款路径是：
 
@@ -59,31 +59,31 @@ Codex 不是单独卖的产品，**开通 Plus 或 Pro 就自动包含**。所�
 
 部分账号首次登录 Codex App / CLI 会要求验证手机号，国内手机号经常收不到。这和订阅无关，是账号验证环节。处理思路：换一个可收海外短信的号码，或按平台的 [手机号验证指南](https://okai66.com/blog/codex-login-phone-verify) 操作。
 
-### 换账号后本地记录还在吗
+### Codex 换账号后本地和云端记录还在吗
 
-桌面端 Codex 的本地对话和项目记录存在本机，同一台电脑、同一个系统用户换账号登录后仍能打开原来的记录；但云端聊天、Projects、会员和额度跟账号走，不会迁移。所以**不要为了额度频繁换号**，升档比换号划算。
+桌面端 Codex 的本地对话和项目记录存在本机，同一台电脑、同一个系统用户换账号登录后仍能打开原来的记录；但云端聊天、Projects、会员和额度跟账号走，不会迁移，规则见 [换账号或换邮箱后 ChatGPT Plus 还在吗](https://imi0801.github.io/chatgpt-plus-guide/chatgpt-plus-change-account/)。所以**不要为了额度频繁换号**，升档比换号划算。
 
 ## 常见问题 FAQ
 
-### Q：用 Codex 必须开 Plus 吗？
+### Q：使用 OpenAI Codex 必须开通 ChatGPT Plus 吗？
 
-Free 有很低的试用额度，正常使用需要 Plus 或 Pro。开通 Plus 后 Codex App / CLI / Web / IDE 扩展都能用。
+日常开发需要开通 Plus 或 Pro 才能正常使用。免费版只有很低的试用额度，开通正式订阅后，桌面客户端、命令行终端、网页端和编辑器扩展都能共用这套编程额度。
 
 ### Q：Codex 代充和 ChatGPT Plus 代充是一回事吗？
 
-是。Codex 包含在 Plus / Pro 里，代充开通 Plus / Pro 就有 Codex。单独的「Codex 额度充值」是在订阅之外加购用量。
+是一回事。Codex 直接包含在 ChatGPT Plus 和 Pro 订阅里，代充开通对应套餐就自带 Codex；另外单独的「Codex 额度充值」是在现有订阅之外额外加购用量包。
 
 ### Q：Plus 和 Pro 100 的 Codex 额度差多少？
 
-Pro 100 约为 Plus 的 5 倍。Pro 200 新订阅约 10 倍（老用户保留 20 倍），Pro 500 约 25 倍。以账号内显示为准。
+Pro 100 的编程额度约为 Plus 基准档的 5 倍；Pro 200 新订阅约为 10 倍（老用户保留 20 倍），Pro 500 约为 25 倍。官方会按负载调整，具体以账号内用量显示为准。
 
 ### Q：Codex 额度多久重置？
 
-短窗口约 5 小时滚动恢复，另有每周上限。具体以账号「用量」页面显示为准。
+按滚动时间窗口和周上限双层重置：短窗口大约 5 小时滚动恢复，短窗口恢复后仍受每周总上限约束，周上限用完需等周期重置，具体时间以账号内「用量」页面显示为准。
 
 ### Q：Codex 额度用完了能单独买吗？
 
-能，OpenAI 支持额外购买 Codex 用量。国内走代充付款，见 [Codex 额度充值](https://okai66.com/purchase-credits)。
+能单独买。OpenAI 支持在 Plus 或 Pro 订阅之外额外购买 Codex 用量包（credits），适合临时赶项目补额度；国内没有海外卡同样可走代充付款，见 [Codex 额度充值](https://okai66.com/purchase-credits)。
 
 ### Q：Codex 和 Claude Code、Cursor 怎么选？
 
